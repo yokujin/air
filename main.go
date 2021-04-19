@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cosmtrek/air/runner"
+	"github.com/yokujin/air/runner"
 )
 
 var (
@@ -26,8 +26,8 @@ func init() {
 
 func main() {
 	fmt.Printf(`
-  __    _   ___  
- / /\  | | | |_) 
+  __    _   ___
+ / /\  | | | |_)
 /_/--\ |_| |_| \_ %s // live reload for Go apps, with Go %s
 
 `, airVersion, goVersion)
